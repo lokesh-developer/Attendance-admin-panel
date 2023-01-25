@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/attendance.css" />
   </head>
   <body>
     <aside>
@@ -23,16 +23,16 @@
           <p class="welcome-text">Welcome to Raisoni Attendance Admin Panel!</p>
         </div>
         <ul>
-          <li><a class="nav-buttons active" href="/">Dashboard</a></li>
+          <li><a class="nav-buttons" href="/">Dashboard</a></li>
           <li><a class="nav-buttons" href="/time-table.html">Time Table</a></li>
-          <li><a class="nav-buttons" href="/attendance.html">Attendance</a></li>
+          <li><a class="nav-buttons active" href="/attendance.html">Attendance</a></li>
           <li><a class="nav-buttons" href="/students.html">Students</a></li>
           <li><a class="nav-buttons" href="/teachers.html">Teachers</a></li>
         </ul>
       </nav>
     </aside>
     <main>
-      <h1>Welcome!</h1>
+      <h1>Attendance</h1>
       <div>
         <h3>Batches</h3>
         <div class="batch-grid">
@@ -44,15 +44,34 @@
         </div>
       </div>
       <div>
-        <h3>Teachers</h3>
-        <div class="teacher-grid">
-          <div class="teacher-box">
-            <img src="img/sonal.jpeg" width="150px" height="200px" alt="teacher-name" title="teacher-name" />
-            <p>Teacher Id: SECSE</p>
-            <p>Teacher Name: Sonal Patil</p>
-          </div>
-        </div>
+        <h3>Month</h3>
+        <input class="date-time" type="date" />
       </div>
+      <div>
+        <div class="head-time">
+          <h3>Attendance - Batch, Month & Date</h3>
+          <button class="icon-button">
+            <img src="img/icons/edit-icon.png" width="30px" height="30px" alt="edit" title="edit" />
+          </button>
+        </div>
+      <table class="attendance-table">
+          <tr>
+            <th>Roll No</th>
+            <th>Student Name</th>
+            <th>Attendance</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        </div>
     </main>
   </body>
 </html>

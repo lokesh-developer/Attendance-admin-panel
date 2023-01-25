@@ -65,3 +65,66 @@ main {
   min-height: 100vh;
 }
 
+.icon-button {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.nav-buttons.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.batch-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.batch-box {
+  padding: 20px;
+  max-width: 300px;
+  max-height: 300px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 5);
+}
+
+.batch-box:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+}
+
+.head-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+input[type='date']:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+input[type='date'] {
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.2s ease;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
