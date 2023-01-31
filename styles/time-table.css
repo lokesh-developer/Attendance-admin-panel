@@ -1,5 +1,6 @@
 .time-table {
   width: 70vw;
+  display: none;
 }
 td, th {
   border: 1px solid #dddddd;
