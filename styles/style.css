@@ -82,7 +82,7 @@ main {
 .batch-grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
 }
 
 .batch-box {
@@ -112,6 +112,7 @@ input[type='date']:hover {
   background-color: #000;
   color: #ffffff;
 }
+
 input[type='date'] {
   padding: 15px;
   font-family: 'Poppins', sans-serif;
